@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import HelloWorld from './HelloWorld'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>Micro-App</h1>
       <div className="card">
-        <p>
-          Hello! This is App for micro-app-1
-        </p>
+        <h1>This is the dev enviornment (mock of container)</h1>
+        <HelloWorld />
       </div>
     </>
   )
